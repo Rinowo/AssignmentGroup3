@@ -7,6 +7,7 @@ public class Application {
         ProductList productList = new ProductList();
         Scanner sc = new Scanner(System.in);
 
+
         Menu menu = new Menu();
 
         while (true) {
