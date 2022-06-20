@@ -93,7 +93,9 @@ public class ProductList {
             int id = resultSet.getInt(1);
             String name = resultSet.getString("name");
             double price = resultSet.getDouble("price");
+            System.out.println();
             System.out.println(id + " " + name + " " + price);
+            System.out.println();
         }
     }
 
